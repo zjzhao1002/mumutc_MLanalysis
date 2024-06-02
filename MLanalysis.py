@@ -176,9 +176,6 @@ factory.TestAllMethods()
 factory.EvaluateAllMethods()
 
 c1 = factory.GetROCCurve(loader)
-c1.SetTitle("Signal efficiency vs. Background rejection")
-c1.GetXaxis().SetTitle("Signal efficiency")
-c1.GetYaxis().SetTitle("Background rejection")
 c1.Draw()
 
 outputFile.Close()
